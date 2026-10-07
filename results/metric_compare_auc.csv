@@ -1,0 +1,7 @@
+yaw_deg,metric,auc_unpaired,frames_lower_than_own_baseline,mean_clean,mean_drifted,std_clean
+0.5,hit_ratio,0.887,0.95,0.9926,0.9237,0.0181
+0.5,edge_score,0.589,0.9,0.5224,0.4857,0.1483
+1.0,hit_ratio,0.963,1.0,0.9926,0.8,0.0181
+1.0,edge_score,0.62,1.0,0.5224,0.4656,0.1483
+2.0,hit_ratio,0.99,1.0,0.9926,0.6007,0.0181
+2.0,edge_score,0.66,0.95,0.5224,0.4502,0.1483

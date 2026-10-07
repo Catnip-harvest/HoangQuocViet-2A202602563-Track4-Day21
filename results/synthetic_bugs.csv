@@ -1,0 +1,8 @@
+bug,frame,evidence,layer
+Điểm NaN/Inf trong point cloud,000000,23/23953 điểm (0.10%),I/O
+Điểm NaN/Inf trong point cloud,000001,23/23781 điểm (0.10%),I/O
+Điểm NaN/Inf trong point cloud,000002,23/23790 điểm (0.10%),I/O
+Điểm NaN/Inf trong point cloud,000003,22/22063 điểm (0.10%),I/O
+Điểm NaN/Inf trong point cloud,000004,23/23760 điểm (0.10%),I/O
+Timestamp sai: khoảng cách giữa 2 frame không đều,000003,"dt 000002->000003 = 0.200 s (các cặp khác 0.100 s), nhưng người đi bộ vẫn đi 2.00 m như mọi frame khác (2.00, 2.00, 2.00, 2.00 m) -> frame không bị rơi, timestamp ghi sai",Time
+Sector LiDAR bị thưa (che một phần cảm biến),000003,"azimuth -40°..-5° có 704 điểm, trung vị các frame khác 2427 (mất 71%); empty_azimuth_bins vẫn = 0",I/O (sensor)
